@@ -1,38 +1,64 @@
 .App {
+  display: flex;
+  color: rgb(224, 224, 235);
+  text-align: center;
+  justify-content: center;
+  align-items:flex-end;
+  height: 30vh;
+  width: 100vw;
+  background-color: rgb(121, 148, 236);
+  padding: 10px; 
+}
+.App1 {
+  display: flex; 
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  height: 70vh;
+  width: 100vw;
+  background-color: rgb(121, 148, 236);
+  padding: 40px; 
+}  
+.message_button {
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+   text-align: center;
+}
+.email_button{
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.message_button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.email_button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.message_comp input{
+  flex-wrap: wrap;
+  height: auto;
+  width:200px;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.message_comp{
+  margin: 10px;
+  width: 30%;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email_comp input{
+  flex-wrap: wrap;
+  height: auto;
+  width:200px;
+  text-align: center;
 }
+.email_comp{
+  margin: 10px;
+  width: 30%;
+  text-align: center;
+}
+ 
